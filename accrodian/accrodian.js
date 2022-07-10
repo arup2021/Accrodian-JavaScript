@@ -1,3 +1,4 @@
+//accrodian script
 var example = document.getElementsByClassName("accrodian_item");
 for (i = 0; i < example.length; ++i) {
     example[i].onclick = function(){
