@@ -1,0 +1,33 @@
+.accrodian_container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.accrodian_heading h1 {
+    text-align: center;
+    color: red;
+    padding: 20px;
+}
+.accrodian_item {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.accrodian_title h2 {
+    padding: 15px;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: red;
+    color:#fff;
+    cursor:pointer;
+}
+
+.accrodian_description p {
+    padding: 15px;
+    margin: 0;
+}
+.accrodian_description{max-height: 0;opacity:0;transition:.5s; overflow:hidden;background-color: #f1f1f1;}
+.active .accrodian_description{opacity:1;}
